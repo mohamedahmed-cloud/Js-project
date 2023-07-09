@@ -75,7 +75,7 @@ ul li:hover {
     color:#262626;
 }
 .disable {
-    cursor:no-drop;
+    cursor:not-allowed;
     background-color: #7fec7d;
 }
 .activebutton {
