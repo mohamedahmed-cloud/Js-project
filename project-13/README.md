@@ -1,3 +1,0 @@
-- Help you to remember ALLAH
--  تطبيق لمساعدة الناس على ذكر الله 
-- You can Demo From [here](https://mohamedyousef-project-13.netlify.app/)
