@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.container{
+	width: 90%;
+	margin:auto;
+}
+
+/* First Section */
+body
+{
+	background-color: #F1F5F8;
+
+}
+
+
+header .container
+{
+	width:fit-content;
+	margin:50px auto;
+	word-spacing: 2px;
+}
+header .container h1
+{
+	color: #102A42;
+	font-size: 30px;
+}
+header .container hr
+{
+	width: 30%;
+	height: 6px;
+	margin:10px auto;
+	background-color: #49A6E9;
+}
+/* section 2 */
+
+section .container
+{
+	text-align: center;
+	background-color: #fff;
+	padding:20px 40px;
+	border-radius: 15px;
+	position:absolute;
+	z-index: -3;
+	top:-30px;
+	left:50%;
+	transform: translate(-50%,50%);
+
+
+}
+/* image */
+section .container .image
+{
+	position:relative;
+	height: 160px;
+
+
+}
+section .container .image img
+{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	position:absolute;
+	left:calc(50% - 70px);
+	
+}
+section .container .image::after
+{
+	content: "";
+	position:absolute;
+	width: 127px;
+	background-color: #49A6E9;
+	height: 127px;
+	border-radius: 50%;
+	z-index: -1;
+	left: calc(50% - 60px);
+	top: -2px;
+
+}
+.image .fa-solid
+{
+	position:absolute;
+	color:#fff;
+	top: 10px;
+	left: calc(50% - 100px);
+	z-index: 2;
+	font-size: 30px;
+	background-color: #49A6E9;
+	border-radius: 50%;
+	padding: 13px 15px;
+}
+/* name */
+section .container .name :first-child
+{
+	letter-spacing: 4px;
+	font-size:bold;
+	color:#102A43;
+	font-size:18px;
+	font-weight: bold;
+}
+section .container .name .job
+{
+	color:#49A6E9;	
+	margin-bottom: 20px;
+}
+/* content */
+section .container .content
+{
+	color: #6D83A4;
+}	
+/* button */	
+section .container .icons button
+{
+	border:none;
+	padding:0px;
+	background-color: inherit;
+}
+section .container .icons button i
+{
+	margin:20px 0px;
+	cursor:pointer;
+	font-size:30px;	
+	font-weight: 900;
+	color:#b0cffa;
+}
+section .container .icons button i:hover
+{
+	color:#49A6E9;	
+}
+
+
+/* button */
+
+section .container .button button
+{
+	background-color: #dce9f9;
+	border:none;
+	color:#49A6E9;	
+	padding: 10px 20px;
+	border-radius: 10px;
+	border:1.5px solid #49A6E9;
+	cursor: pointer;
+	font-weight:bold;
+}
+section .container .button button:hover
+{
+	transition: 1s ease all;
+	color:#222;
+	background-color:#49A6E9 ;
+}
